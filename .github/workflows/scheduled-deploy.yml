@@ -2,7 +2,7 @@ name: Scheduled Auto-Deploy
 
 on:
   schedule:
-    - cron: '50 0 * * *'  # 每天早上北京时间8:50更新(UTC时间为0:50)
+    - cron: '53 0 * * *'  # 每天早上北京时间8:53更新(UTC时间为0:53)
   workflow_dispatch:
   push:
     branches: [main]
